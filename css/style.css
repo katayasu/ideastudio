@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+	width: 1420px;
+	margin: 0 auto;
+}
+
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+a,
+ol,
+ul,
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+a {
+	color: white;
+}
+
+nav ul {
+	padding-top: 40px;
+	padding-left: 18%;
+	padding-right: 18%;
+	display: flex;
+}
+
+nav li {
+	margin-right: 11%;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.header-main {
+	background-image: url("../img/main-block.png");
+	width: 1440px;
+	height: 595px;
+}
+
+.logo {
+	margin-top: -17px;
+}
