@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-	width: 1420px;
+	width: 940px;
 	margin: 0 auto;
 }
 
@@ -49,7 +49,6 @@ nav li {
 
 .header-main {
 	background-image: url("../img/main-block.png");
-	width: 1440px;
 	height: 595px;
 }
 
