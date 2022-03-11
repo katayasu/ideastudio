@@ -5,7 +5,7 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	color: white;
+	color: #c4c4c4;
 	font-family: 'PT Sans', sans-serif;
 }
 
@@ -30,6 +30,27 @@ li {
 
 a {
 	color: white;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 36px;
+	letter-spacing: 8px;
+	color: black;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 8px;
+	color: black;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 8px;
+	color: black;
 }
 
 nav ul {
@@ -62,9 +83,8 @@ nav li {
 }
 
 .utp h1 {
-	text-transform: uppercase;
 	font-size: 48px;
-	letter-spacing: 8px;
+	color: white;
 }
 
 .utp p {
@@ -73,6 +93,7 @@ nav li {
 	margin-top: -30px;
 	letter-spacing: 3px;
 	margin-bottom: 50px;
+	color: white;
 }
 
 .utp a {
@@ -84,3 +105,4 @@ nav li {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
