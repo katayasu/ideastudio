@@ -79,7 +79,7 @@ nav li {
 }
 
 .utp {
-	margin-top: 10%;
+	margin-top: 150px;
 	text-align: center;\
 }
 
@@ -128,6 +128,7 @@ nav li {
 }
 
 .block {
+	margin-top: 100px;
 	display: flex;
 }
 
@@ -140,7 +141,7 @@ nav li {
 }
 
 .left .block-title {
-	margin-left: 240px;
+	margin-left: 270px;
 	width: 360px;
 	text-align: center;
 }
