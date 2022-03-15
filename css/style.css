@@ -55,8 +55,8 @@ h3 {
 
 nav ul {
 	padding-top: 40px;
-	padding-left: 19%;
-	padding-right: 19%;
+	padding-left: 10%;
+	padding-right: 20%;
 	display: flex;
 }
 
@@ -69,7 +69,8 @@ nav li {
 }
 
 .header-main {
-	background-image: url("../img/main-block.png");
+	background: no-repeat center url("../img/main-block.png");
+	background-size: cover;
 	height: 595px;
 }
 
@@ -106,3 +107,56 @@ nav li {
 	font-weight: bold;
 }
 
+.about {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.about p.ad-text {
+	font-size: 18px;
+	font-weight: bold;
+	width: 386px;
+	margin-left: 270px;
+}
+
+.about p.under-title {
+	font-family: 'Lobster', cursive;
+	font-size: 24px;
+	padding-bottom: 40px;
+	letter-spacing: 3px;
+	font-weight: normal;
+}
+
+.block {
+	display: flex;
+}
+
+.img-left {
+	margin-left: -400px;
+}
+
+.left {
+	padding: 50px;
+}
+
+.left .block-title {
+	margin-left: 240px;
+	width: 360px;
+	text-align: center;
+}
+
+.block-adv {
+	text-align: center;
+	display: inline-block;
+	column-count: 2;
+	width: 100%;
+}
+
+.adv {
+	width: 350px;
+	padding: 50px 50px;
+}
+
+.adv h3 {
+	margin-bottom: 30px;
+}
